@@ -9,11 +9,3 @@ Digitalocean::Droplet.all.droplets.each do |d|
   puts d.name
   Digitalocean::Droplet.destroy(d.id)
 end
-
-
-
-
-
-
-
-
